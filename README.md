@@ -47,3 +47,55 @@ Resolvers are functions that fetch the data for each field in the schema. They m
 __5. Subscriptions__
 
 Subscriptions allow clients to listen for real-time updates.
+
+---
+
+### Steps to Build the Application
+
+**1. Set Up the PostgreSQL Database**
+
+Ensure you have a customer table in PostgreSQL.
+
+Example schema are given in the ```customers.sql``` file
+
+**2. Python Backend with GraphQL**
+
+Install Required Dependencies
+Install the necessary Python packages:
+```
+pip install graphene flask flask-graphql psycopg2
+```
+
+**3. Create the GraphQL Schema**
+
+Use graphene to define your GraphQL schema, e.g., ```graphene.py```
+
+**4. Create the Flask App**
+
+Serve the GraphQL API using Flask, e.g., ```app.py```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
