@@ -66,13 +66,9 @@ Install the necessary Python packages:
 pip install graphene flask flask-graphql psycopg2
 ```
 
-**3. Create the GraphQL Schema**
+**3. Create the GraphQL Schema and Flask App**
 
-Use graphene to define your GraphQL schema, e.g., ```graphene.py```
-
-**4. Create the Flask App**
-
-Serve the GraphQL API using Flask, e.g., ```app.py```
+Use graphene to define your GraphQL schema and serve the GraphQL API using Flask, e.g., ```app.py```
 
 
 
